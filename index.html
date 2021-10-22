@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="intro" id="intro">
+        <div>
+            <h1 class="ml3">Welcome to Calculator</h1>
+        </div>
+        <div class="calculator">
+            <input type="text" class="display" disabled>
+            <!-- keys -->
+            <div class="keys">
+            <!-- 4 rows of keys -->
+            <div class="row">
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="+" class="operator">+</button>
+            </div>
+            <div class="row">
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="-" class="operator">-</button>
+            </div>
+            <div class="row">
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="*" class="operator">*</button>
+            </div>
+            <div class="row">
+                <button value="C" class="operator">C</button>
+                <button value="0">0</button>
+                <button value="/" class="operator">/</button>
+                <button value="=" class="operator">=</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./three.min.js"></script>
+    <script src="./vanta.net.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
